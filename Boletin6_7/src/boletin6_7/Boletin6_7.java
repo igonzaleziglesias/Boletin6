@@ -31,9 +31,12 @@ public class Boletin6_7 {
        
         Areas area=new Areas();
         switch (opcion){
-            case 0: area.cadrado();break;
-            case 1: area.triangulo();break;
-            case 2: area.circulo();break;
+            case 0: area.cadrado();
+            break;
+            case 1: area.triangulo();
+            break;
+            case 2: area.circulo();
+            break;
                 
         }
     
