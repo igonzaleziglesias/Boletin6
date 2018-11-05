@@ -20,8 +20,8 @@ public class Areas {
     public void circulo() {
 
         double radio = Double.parseDouble(JOptionPane.showInputDialog("Introduce o radio do circulo"));
-
-        JOptionPane.showMessageDialog(null, "El area del circulo es: " + radio * radio * Math.PI);
+        double area= radio * radio * Math.PI;
+        JOptionPane.showMessageDialog(null, "El area del circulo es: " + (float)area);
     }
 
 }
