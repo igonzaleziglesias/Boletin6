@@ -25,25 +25,25 @@ public class Numeros {
     }
 
     public void compararNumeros() {
+
         if ((num1 == num2) && (num2 == num3)) {
-            JOptionPane.showMessageDialog(null, "Os numeros son iguais");
-        } else if (num1 == num2) {
-            JOptionPane.showMessageDialog(null, "O primeiro e o segundo numero son iguais");
-
-        } else if (num1 == num3) {
-            JOptionPane.showMessageDialog(null, "O primeiro e o terceiro numero son iguais");
-
-        } else if (num2 == num3) {
-            JOptionPane.showMessageDialog(null, "O segundo e o terceiro numero son iguais");
-
+            JOptionPane.showMessageDialog(null, " Os numeros son iguais");
         } else if ((num1 > num2) && (num1 > num3)) {
             JOptionPane.showMessageDialog(null, num1 + " É o numero maior");
 
         } else if ((num2 > num1) && (num2 > num3)) {
-            JOptionPane.showMessageDialog(null, num2 + "É o numero maior");
+            JOptionPane.showMessageDialog(null, num2 + " É o numero maior");
 
-        } else {
-            JOptionPane.showMessageDialog(null, num3 + "É o numero maior");
+        } else if ((num3 > num1) && (num3 > num2)) {
+            JOptionPane.showMessageDialog(null, num3 + " É o numero maior");
+        } else if (num1 == num2) {
+            JOptionPane.showMessageDialog(null, "O primeiro e o segundo numero son iguais e son os maiores");
+
+        } else if (num1 == num3) {
+            JOptionPane.showMessageDialog(null, "O primeiro e o terceiro numero son iguais e son os maiores");
+
+        } else if (num2 == num3) {
+            JOptionPane.showMessageDialog(null, "O segundo e o terceiro numero son iguais e son os maiores");
         }
 
     }
